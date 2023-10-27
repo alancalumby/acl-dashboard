@@ -7,8 +7,13 @@
   color: #fff;
 }
 
+.sidenav a {
+  color: #fff;
+}
+
 .sidenav i {
   padding-right: 10px;
+  color: #fff;
 }
 
 .content {
