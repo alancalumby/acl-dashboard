@@ -1,9 +1,13 @@
 <mat-card class="card">
   <mat-card-title>Exchange</mat-card-title>
-  <mat-card-content>CAD >> BRL: {{ 0 }}</mat-card-content>
+  <mat-card-content
+    >CAD >> BRL: {{ exchange.conversion_rates["BRL"] }}</mat-card-content
+  >
 </mat-card>
 
 <mat-card class="card">
   <mat-card-title>Titulo</mat-card-title>
-  <mat-card-content>CAD >> BRL: {{ 0 }}</mat-card-content>
+  <mat-card-content
+    >CAD >> USD: {{ exchange.conversion_rates["USD"] }}</mat-card-content
+  >
 </mat-card>
